@@ -11,8 +11,8 @@ fib_cache = {}
 
 def main():
 	print(fibonacci(0))
-	print(fibonacci(100))
-	print(fibonacci(101))
+	print(fibonacci(5))
+	print(fibonacci(10))
 
 def fibonacci(n):
 	if n == 0 or n == 1:
